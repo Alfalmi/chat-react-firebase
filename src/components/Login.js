@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div id="login-page">
       <div id="login-card">
-        <h2>Welome to Unichat</h2>
+        <h2>Welome to FourteenChat</h2>
         <div 
         className="login-button google"
         onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
